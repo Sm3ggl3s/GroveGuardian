@@ -21,6 +21,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Spr_button","order":8,"path":"sprites/Spr_button/Spr_button.yy",},
     {"name":"Obj_tower","order":2,"path":"objects/Obj_tower/Obj_tower.yy",},
     {"name":"Spr_path","order":1,"path":"sprites/Spr_path/Spr_path.yy",},
     {"name":"Obj_spawner","order":1,"path":"objects/Obj_spawner/Obj_spawner.yy",},
@@ -29,6 +30,7 @@
     {"name":"Obj_bullet","order":3,"path":"objects/Obj_bullet/Obj_bullet.yy",},
     {"name":"Spr_card","order":1,"path":"sprites/Spr_card/Spr_card.yy",},
     {"name":"Path2","order":1,"path":"paths/Path2/Path2.yy",},
+    {"name":"Obj_button","order":8,"path":"objects/Obj_button/Obj_button.yy",},
     {"name":"Obj_card","order":1,"path":"objects/Obj_card/Obj_card.yy",},
     {"name":"Spr_bullet","order":3,"path":"sprites/Spr_bullet/Spr_bullet.yy",},
     {"name":"Spr_tower","order":2,"path":"sprites/Spr_tower/Spr_tower.yy",},
