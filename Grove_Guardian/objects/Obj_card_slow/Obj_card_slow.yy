@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},"propertyId":{"name":"card_item","path":"objects/Obj_card/Obj_card.yy",},"value":"Obj_source",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},"propertyId":{"name":"card_item","path":"objects/Obj_card/Obj_card.yy",},"value":"Obj_tower_slow",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},"propertyId":{"name":"card_sprite","path":"objects/Obj_card/Obj_card.yy",},"value":"Spr_tower_slow",},
   ],
   "parent": {
