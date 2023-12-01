@@ -5,7 +5,9 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"attack_spread","path":"objects/Obj_tower/Obj_tower.yy",},"value":"1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"attack_spread","path":"objects/Obj_tower/Obj_tower.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"attack_range","path":"objects/Obj_tower/Obj_tower.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"attack_power","path":"objects/Obj_tower/Obj_tower.yy",},"value":"1",},
   ],
   "parent": {
     "name": "player",
