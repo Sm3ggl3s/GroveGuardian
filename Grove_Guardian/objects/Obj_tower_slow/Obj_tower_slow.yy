@@ -4,7 +4,11 @@
   "name": "Obj_tower_slow",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"tower_effect","path":"objects/Obj_tower/Obj_tower.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"attack_power","path":"objects/Obj_tower/Obj_tower.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"tower_id","path":"objects/Obj_tower/Obj_tower.yy",},"value":"3",},
+  ],
   "parent": {
     "name": "player",
     "path": "folders/Objects/player.yy",

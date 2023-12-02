@@ -6,4 +6,4 @@ below_tower = noone
 left_tower = noone
 right_tower = noone
 speed_buff = 0
-
+attack_speed_temp = attack_speed

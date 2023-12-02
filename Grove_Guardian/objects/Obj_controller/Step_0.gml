@@ -1,7 +1,7 @@
 if(!timeline_running and !instance_exists(Obj_enemy)){
 	global.wave_mode = false
-	if(score >= 100)
-		room_goto_next()
+	if(global.wave_count == 5)
+		room_goto(Rm_win)
 }
 if(room == Rm_shop){
 	if(global.isEmpty[0]){
@@ -22,15 +22,15 @@ if(room == Rm_shop){
 	}
 	if(!instance_exists(global.cards[0])){
 		global.isEmpty[0] = true
-		global.stock[0] = floor(random(5))
+		global.stock[0] = floor(random(6))
 	}
 	if(!instance_exists(global.cards[1])){
 		global.isEmpty[1] = true
-		global.stock[1] = floor(random(5))
+		global.stock[1] = floor(random(6))
 	}
 	if(!instance_exists(global.cards[2])){
 		global.isEmpty[2] = true
-		global.stock[2] = floor(random(5))
+		global.stock[2] = floor(random(6))
 	}
 	if(!instance_exists(global.cards[3])){
 		global.isEmpty[3] = true

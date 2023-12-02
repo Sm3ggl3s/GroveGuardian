@@ -5,9 +5,13 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"attack_range","path":"objects/Obj_tower/Obj_tower.yy",},"value":"0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_tower","path":"objects/Obj_tower/Obj_tower.yy",},"propertyId":{"name":"tower_id","path":"objects/Obj_tower/Obj_tower.yy",},"value":"2",},
+  ],
   "parent": {
     "name": "player",
     "path": "folders/Objects/player.yy",

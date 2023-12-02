@@ -1,7 +1,7 @@
-above_tower = collision_circle(x+64, y-64, 64, Obj_tower, false, true)
-below_tower = collision_circle(x+64, y+192, 64, Obj_tower, false, true)
-left_tower = collision_circle(x-64, y+64, 64, Obj_tower, false, true)
-right_tower = collision_circle(x+192, y+64, 64, Obj_tower, false, true)
+above_tower = collision_circle(x+64, y-64, 4, Obj_tower, false, true)
+below_tower = collision_circle(x+64, y+192, 4, Obj_tower, false, true)
+left_tower = collision_circle(x-64, y+64, 4, Obj_tower, false, true)
+right_tower = collision_circle(x+192, y+64, 4, Obj_tower, false, true)
 
 if(above_tower != noone){
 	if(above_tower.powered){

@@ -7,6 +7,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},"propertyId":{"name":"card_item","path":"objects/Obj_card/Obj_card.yy",},"value":"Obj_tower_buff",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},"propertyId":{"name":"card_sprite","path":"objects/Obj_card/Obj_card.yy",},"value":"Spr_tower_buff",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},"propertyId":{"name":"card_cost","path":"objects/Obj_card/Obj_card.yy",},"value":"5",},
   ],
   "parent": {
     "name": "Cards",

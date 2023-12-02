@@ -1,4 +1,10 @@
+//if(instance_exists(Obj_player))
+	//draw_text(70, 50, "score: " + string(score) + "/100");
 if(instance_exists(Obj_player))
-	draw_text(70, 50, "score: " + string(score) + "/100");
-
-
+	draw_healthbar(0, 960, 1920, 1020, health, c_black, c_red, c_lime, 0, true, true)
+if(room = Rm_shop or room = global.current_room)
+	draw_text_transformed(100, 50,"Credits: " + string(floor(global.currency/5)), 4, 4, 0)
+if(global.wave_mode)
+	draw_text_transformed(100, 100,"Wave " + string(floor(global.wave_count)), 4, 4, 0)
+if(room = Rm_win or room = Rm_lose)
+	draw_text_transformed(900, 510,"Score " + string(score), 4, 4, 0)
