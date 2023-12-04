@@ -3,7 +3,7 @@ if(room == global.current_room){
 		shader_set(Sh_buff)
 	draw_self()
 	shader_reset()
-	if(x == global.gridlocation[0] and y == global.gridlocation[1])
-		draw_circle_color(x+64, y+64, 64+(128*attack_range),c_black, c_black, true)
+	if(x == global.gridlocation[0]+64 and y == global.gridlocation[1]+64)
+		draw_circle_color(x, y, 64+(128*attack_range),c_black, c_black, true)
 }
 

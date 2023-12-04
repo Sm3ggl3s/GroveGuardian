@@ -15,6 +15,7 @@ global.isEmpty = [true, true, true, true]
 global.gridlocation = [0,0]
 //Current wave room
 global.current_room = Room1
+global.current_music = Sd_level_1
 //Paths enemies will follow
 global.path_1 = Path1
 global.path_2 = Path2

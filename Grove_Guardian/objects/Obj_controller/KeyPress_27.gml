@@ -19,3 +19,6 @@ global.wave_count = 0
 instance_destroy(Obj_tower)
 instance_destroy(Obj_enemy)
 instance_destroy(Obj_card)
+
+audio_stop_all()
+audio_play_sound(Sd_menu, 1, true)

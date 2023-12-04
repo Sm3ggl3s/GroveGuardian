@@ -3,6 +3,8 @@ if(!timeline_running and !instance_exists(Obj_enemy)){
 	if(global.wave_count == 5)
 		room_goto(Rm_win)
 }
+if(global.wave_count == 8 and room == global.current_room)
+	room_goto(Rm_win)
 if(room == Rm_shop){
 	if(global.isEmpty[0]){
 		global.cards[0] = instance_create_layer(260,540,"Instances_shop",get_card(global.stock[0]))

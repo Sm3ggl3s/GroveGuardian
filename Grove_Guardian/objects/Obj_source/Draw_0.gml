@@ -1,4 +1,4 @@
-if(room == Room1)
+if(room == global.current_room)
 	draw_self()
 
 
