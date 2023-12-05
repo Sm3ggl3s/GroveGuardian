@@ -8,7 +8,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"propertyId":{"name":"enemy_score","path":"objects/Obj_enemy/Obj_enemy.yy",},"value":"0",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"propertyId":{"name":"enemy_damage","path":"objects/Obj_enemy/Obj_enemy.yy",},"value":"3",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"propertyId":{"name":"enemy_speed","path":"objects/Obj_enemy/Obj_enemy.yy",},"value":"9",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"propertyId":{"name":"enemy_health","path":"objects/Obj_enemy/Obj_enemy.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"propertyId":{"name":"enemy_health","path":"objects/Obj_enemy/Obj_enemy.yy",},"value":"4",},
   ],
   "parent": {
     "name": "enemy",

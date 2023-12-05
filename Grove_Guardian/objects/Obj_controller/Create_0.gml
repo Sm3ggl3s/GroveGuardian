@@ -21,3 +21,4 @@ global.path_1 = Path1
 global.path_2 = Path2
 //Finished waves
 global.wave_count = 0
+audio_play_sound(Sd_menu, 1, true)
