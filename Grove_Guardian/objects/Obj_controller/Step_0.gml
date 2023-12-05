@@ -1,6 +1,6 @@
 if(!timeline_running and !instance_exists(Obj_enemy)){
 	global.wave_mode = false
-	if(global.wave_count == 5)
+	if(global.wave_count == 5 and room == global.current_room)
 		room_goto(Rm_win)
 }
 if(global.wave_count == 8 and room == global.current_room)

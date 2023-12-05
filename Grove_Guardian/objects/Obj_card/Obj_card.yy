@@ -30,6 +30,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"card_item","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Obj_tower","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"card_cost","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"3","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"card_sprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Spr_tower","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"card_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\" Pellet Plant  \"","varType":2,},
   ],
   "solid": false,
   "spriteId": {

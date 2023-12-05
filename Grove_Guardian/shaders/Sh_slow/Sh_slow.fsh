@@ -8,5 +8,5 @@ void main()
 {
     gl_FragColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
 	
-	gl_FragColor.rb -= vec2(0.2, 0.2);
+	gl_FragColor.g += 0.7;
 }
