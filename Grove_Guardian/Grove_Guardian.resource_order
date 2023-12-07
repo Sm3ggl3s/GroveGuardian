@@ -49,6 +49,7 @@
     {"name":"Obj_fertilizer","order":9,"path":"objects/Obj_fertilizer/Obj_fertilizer.yy",},
     {"name":"Obj_button_level_2","order":3,"path":"objects/Obj_button_level_2/Obj_button_level_2.yy",},
     {"name":"Obj_button_level_1","order":2,"path":"objects/Obj_button_level_1/Obj_button_level_1.yy",},
+    {"name":"Spr_player_back","order":10,"path":"sprites/Spr_player_back/Spr_player_back.yy",},
     {"name":"Obj_bullet","order":2,"path":"objects/Obj_bullet/Obj_bullet.yy",},
     {"name":"Spr_card","order":1,"path":"sprites/Spr_card/Spr_card.yy",},
     {"name":"Rm_lose","order":3,"path":"rooms/Rm_lose/Rm_lose.yy",},

@@ -1,27 +1,38 @@
 global.gridlocation[0] = floor(mouse_x/128)*128
 global.gridlocation[1] = floor(mouse_y/128)*128
-
+if(vspeed == 0 and hspeed = 0)
+	image_speed = 0
+else
+	image_speed = 1
+if(vspeed < 0)
+	sprite_index = Spr_player_back
+else
+	sprite_index = Spr_player
 if(view_visible[0] != 1)
 {
 	image_alpha = 1
 	if (keyboard_check(ord("A")) and !instance_place(x-move_speed, y, Obj_block)) {
 		x += -move_speed
 		image_xscale = 1
-		//sprite_index = 
+		image_speed = 1
 	}
 	if (keyboard_check(ord("D")) and !instance_place(x+move_speed, y, Obj_block)) {
 		x += move_speed
 		image_xscale = -1
-		//sprite_index = 
+		image_speed = 1
 	}
 	if (keyboard_check(ord("W")) and !instance_place(x, y-move_speed, Obj_block)){
 		y += -move_speed
-		//sprite_index = 
+		sprite_index = Spr_player_back
+		image_speed = 1
 	}
 	if (keyboard_check(ord("S")) and !instance_place(x, y+move_speed, Obj_block)){
 		y += move_speed
-		//sprite_index = 
+		sprite_index = Spr_player
+		image_speed = 1
 	}
+	if(!keyboard_check(ord("S")) and !keyboard_check(ord("D")) and !keyboard_check(ord("A")) and !keyboard_check(ord("W")))
+		image_speed = 0
 	if(!cooldown and mouse_check_button(mb_left) and global.wave_mode){
 		cooldown = true
 		alarm[0] = 25

@@ -72,6 +72,7 @@
     {"id":{"name":"Obj_button_level_2","path":"objects/Obj_button_level_2/Obj_button_level_2.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"Obj_button_level_1","path":"objects/Obj_button_level_1/Obj_button_level_1.yy",},},
+    {"id":{"name":"Spr_player_back","path":"sprites/Spr_player_back/Spr_player_back.yy",},},
     {"id":{"name":"Obj_bullet","path":"objects/Obj_bullet/Obj_bullet.yy",},},
     {"id":{"name":"Spr_card","path":"sprites/Spr_card/Spr_card.yy",},},
     {"id":{"name":"Obj_controller","path":"objects/Obj_controller/Obj_controller.yy",},},

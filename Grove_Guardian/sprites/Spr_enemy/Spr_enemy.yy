@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "Spr_enemy",
   "bbox_bottom": 127,
-  "bbox_left": 0,
-  "bbox_right": 127,
-  "bbox_top": 0,
+  "bbox_left": 5,
+  "bbox_right": 122,
+  "bbox_top": 5,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"79c5f22b-6dbe-4918-920c-04b1c994166d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e504156-467f-400b-96bf-4e3693b31bb1",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"96d49d27-29f1-4b9f-a17d-9bd77c448dd8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4cb5322c-b178-4a56-b164-be0957bf8b5c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"79c5f22b-6dbe-4918-920c-04b1c994166d","path":"sprites/Spr_enemy/Spr_enemy.yy",},},},"Disabled":false,"id":"d57d1b51-c84e-4370-a5cd-20030e6c9dc6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e504156-467f-400b-96bf-4e3693b31bb1","path":"sprites/Spr_enemy/Spr_enemy.yy",},},},"Disabled":false,"id":"f219c383-4eb8-4ea0-a19e-4982e556c21a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
