@@ -32,6 +32,7 @@ if(attack_speed_temp < 1)
 	attack_speed_temp = 1
 
 if(powered){
+	image_speed = 1
 	if(target == noone){
 		target = collision_circle(x, y, 64+(128*attack_range), Obj_enemy, false, true)
 	}
@@ -70,3 +71,5 @@ if(powered){
 		}
 	}
 }
+else
+	image_speed = 0
