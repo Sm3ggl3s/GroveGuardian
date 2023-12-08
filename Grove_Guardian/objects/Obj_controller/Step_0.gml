@@ -1,12 +1,16 @@
 if(!timeline_running and !instance_exists(Obj_enemy)){
 	global.wave_mode = false
-	if(global.wave_count == 5 and room == global.current_room)
+	if(global.wave_count == 5 and room == global.current_room){
 		room_goto(Rm_win)
+		audio_play_sound(Sd_win, 0, false)
+	}
 }
 else
 	global.wave_mode = true
-if(global.wave_count == 8 and room == global.current_room)
+if(global.wave_count == 8 and room == global.current_room){
 	room_goto(Rm_win)
+	audio_play_sound(Sd_win, 0, false)
+}
 if(room == Rm_shop){
 	if(global.isEmpty[0]){
 		global.cards[0] = instance_create_layer(260,540,"Instances_shop",get_card(global.stock[0]))

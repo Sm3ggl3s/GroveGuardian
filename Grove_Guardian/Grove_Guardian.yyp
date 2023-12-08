@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"Sd_level_2","path":"sounds/Sd_level_2/Sd_level_2.yy",},},
@@ -78,6 +78,7 @@
     {"id":{"name":"Obj_button_level_1","path":"objects/Obj_button_level_1/Obj_button_level_1.yy",},},
     {"id":{"name":"Spr_controls","path":"sprites/Spr_controls/Spr_controls.yy",},},
     {"id":{"name":"Spr_player_back","path":"sprites/Spr_player_back/Spr_player_back.yy",},},
+    {"id":{"name":"Sd_win","path":"sounds/Sd_win/Sd_win.yy",},},
     {"id":{"name":"Obj_bullet","path":"objects/Obj_bullet/Obj_bullet.yy",},},
     {"id":{"name":"Spr_card","path":"sprites/Spr_card/Spr_card.yy",},},
     {"id":{"name":"Obj_controller","path":"objects/Obj_controller/Obj_controller.yy",},},
@@ -104,6 +105,7 @@
     {"id":{"name":"Rm_towers","path":"rooms/Rm_towers/Rm_towers.yy",},},
     {"id":{"name":"Sd_shop","path":"sounds/Sd_shop/Sd_shop.yy",},},
     {"id":{"name":"Spr_background","path":"sprites/Spr_background/Spr_background.yy",},},
+    {"id":{"name":"Sd_shoot","path":"sounds/Sd_shoot/Sd_shoot.yy",},},
     {"id":{"name":"Obj_enemy_summoner","path":"objects/Obj_enemy_summoner/Obj_enemy_summoner.yy",},},
     {"id":{"name":"Spr_tower_slow","path":"sprites/Spr_tower_slow/Spr_tower_slow.yy",},},
     {"id":{"name":"Obj_card","path":"objects/Obj_card/Obj_card.yy",},},
